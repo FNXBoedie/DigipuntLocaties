@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', () => {
             location: { lat: 51.0630314, lng: 3.7038098 },
             timestamp: new Date().getTime(),
             userId: 'default',
-            image: './images/digipunt.png'
+            image: 'digipunt.png'
         },
         {
             id: 'default1',
@@ -98,7 +98,7 @@ document.addEventListener('DOMContentLoaded', () => {
             location: { lat: 51.0601875, lng: 3.711071 },
             timestamp: new Date().getTime(),
             userId: 'default',
-            image: './images/digipunt.png'
+            image: 'digipunt.png'
         },
         {
             id: 'default1',
@@ -108,7 +108,7 @@ document.addEventListener('DOMContentLoaded', () => {
             location: { lat: 51.044070, lng: 3.741510 },
             timestamp: new Date().getTime(),
             userId: 'default',
-            image: './images/digipunt.png'
+            image: 'digipunt.png'
         },
         {
             id: 'default1',
@@ -118,7 +118,7 @@ document.addEventListener('DOMContentLoaded', () => {
             location: { lat: 51.0472122, lng: 3.73093 },
             timestamp: new Date().getTime(),
             userId: 'default',
-            image: './images/digipunt.png'
+            image: 'digipunt.png'
         },
         {
             id: 'default1',
@@ -128,7 +128,7 @@ document.addEventListener('DOMContentLoaded', () => {
             location: { lat: 51.049086, lng: 3.7288502 },
             timestamp: new Date().getTime(),
             userId: 'default',
-            image: './images/digipunt.png'
+            image: 'digipunt.png'
         },
         {
             id: 'default1',
@@ -138,7 +138,7 @@ document.addEventListener('DOMContentLoaded', () => {
             location: { lat: 51.02096633618823, lng: 3.718705773353577 },
             timestamp: new Date().getTime(),
             userId: 'default',
-            image: './images/digipunt.png'
+            image: 'digipunt.png'
         },
         {
             id: 'default1',
@@ -148,7 +148,7 @@ document.addEventListener('DOMContentLoaded', () => {
             location: { lat: 51.0236304, lng: 3.7194702 },
             timestamp: new Date().getTime(),
             userId: 'default',
-            image: './images/digipunt.png'
+            image: 'digipunt.png'
         },
         {
             id: 'default1',
@@ -158,7 +158,7 @@ document.addEventListener('DOMContentLoaded', () => {
             location: { lat: 51.0633212, lng: 3.7118666 },
             timestamp: new Date().getTime(),
             userId: 'default',
-            image: './images/digipunt.png'
+            image: 'digipunt.png'
         },
   
         
