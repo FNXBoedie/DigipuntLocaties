@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gentle - Community Requests & Offers</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Digipunt Locaties</h1>
+            <div class="actions">
+                <div class="dropdown">
+                    
+                    <div class="dropdown-content">
+                        <a href="#" data-value="all">Alles tonen</a>
+                        <a href="#" data-value="request">Enkel aanvragen</a>
+                        <a href="#" data-value="offer">Enkel aanbiedingen</a>
+                    </div>
+                </div>
+                
+            </div>
+        </header>
+
+        <div id="map"></div>
+
+        <div id="postModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Nieuwe post maken</h2>
+                <form id="postForm">
+                    <div class="dropdown">
+                        <button type="button" class="dropdown-btn">Aanvraag</button>
+                        <div class="dropdown-content">
+                            <a href="#" data-value="request">Aanvraag</a>
+                            <a href="#" data-value="offer">Aanbieding</a>
+                        </div>
+                    </div>
+                    <input type="hidden" id="postType" value="request" required>
+                    <input type="text" id="title" placeholder="Titel" required>
+                    <textarea id="description" placeholder="Descriptie" required></textarea>
+                    <div class="image-upload">
+                        <label for="imageInput" class="upload-label">
+                            <span>Foto toevoegen</span>
+                            <input type="file" id="imageInput" accept="image/*">
+                        </label>
+                        <div id="imagePreview" class="image-preview"></div>
+                    </div>
+                    <p>Klik op de map om een locatie te selecteren</p>
+                    <button type="submit">Post</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
